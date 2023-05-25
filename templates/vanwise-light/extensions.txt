@@ -6,6 +6,4 @@ https://github.com/a2569875/stable-diffusion-webui-composable-lora
 https://github.com/a2569875/lora-prompt-tool
 https://github.com/camenduru/sd-civitai-browser
 https://github.com/Mikubill/sd-webui-controlnet
-https://github.com/hnmr293/posex
-https://github.com/thygate/stable-diffusion-webui-depthmap-script
-https://github.com/Scholar01/sd-webui-mov2mov
+
