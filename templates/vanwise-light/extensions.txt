@@ -6,4 +6,5 @@ https://github.com/a2569875/stable-diffusion-webui-composable-lora
 https://github.com/a2569875/lora-prompt-tool
 https://github.com/camenduru/sd-civitai-browser
 https://github.com/Mikubill/sd-webui-controlnet
-
+https://github.com/nonnonstop/sd-webui-3d-open-pose-editor
+https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN
