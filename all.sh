@@ -238,7 +238,7 @@ function prepare_fuse_dir {
 
 function install {
     #Prepare runtime
-    component_types=( "webui" "extensions" "scripts" "embeddings" "ESRGAN_models" "checkpoints" "hypernetworks" "lora" "lycoris" "vae" "clip" "cn_models" )
+    component_types=( "webui" "extensions" "scripts" "embeddings" "ESRGAN_models" "checkpoints" "hypernetworks" "lora" "LyCORIS" "vae" "clip" "cn_models" )
     for component_type in "${component_types[@]}"
     do
       template_path=$1
