@@ -229,8 +229,11 @@ function prepare_fuse_dir {
     mkdir /content/models
     mkdir /content/fused-lora
     mkdir /content/lora
+    mkdir /content/fused-LyCORIS
+    mkdir /content/LyCORIS
     unionfs-fuse $BASEPATH/models/Stable-diffusion=RW:/content/models=RW /content/fused-models
-    unionfs-fuse $BASEPATH/extensions/sd-webui-additional-networks/models/lora=RW:$BASEPATH/models/Lora=RW:/content/lora=RW /content/fused-lora
+    unionfs-fuse $BASEPATH/models/Lora=RW:/content/lora=RW /content/fused-lora
+    unionfs-fuse $BASEPATH/models/LyCORIS=RW:/content/LyCORIS=RW /content/fused-LyCORIS
 }
 
 function install {
@@ -266,7 +269,7 @@ function run {
     #Prepare for running
     sed_for run $BASEPATH
 
-    cd $BASEPATH && python launch.py --listen --share --xformers --enable-insecure-extension-access --theme dark --clip-models-path $BASEPATH/models/CLIP
+    cd $BASEPATH && python launch.py --listen --share --xformers --enable-insecure-extension-access --ui-debug-mode --disable-safe-unpickle --no-gradio-queue --clip-models-path $BASEPATH/models/CLIP
 }
 
 BASEPATH=/content/drive/MyDrive/SD
