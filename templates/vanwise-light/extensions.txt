@@ -1,10 +1,10 @@
-https://jihulab.com/Akegarasu/sd-webui-images-browser
+https://github.com/zanllp/sd-webui-infinite-image-browsing
 https://github.com/camenduru/sd-webui-tunnels
 https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris
 https://github.com/opparco/stable-diffusion-webui-two-shot
 https://github.com/a2569875/stable-diffusion-webui-composable-lora
 https://github.com/a2569875/lora-prompt-tool
-https://github.com/camenduru/sd-civitai-browser
+https://github.com/etherealxx/batchlinks-webui
 https://github.com/Mikubill/sd-webui-controlnet
 https://github.com/nonnonstop/sd-webui-3d-open-pose-editor
 https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN
