@@ -230,7 +230,7 @@ function prepare_fuse_dir {
     mkdir /content/fused-lora
     mkdir /content/lora
     unionfs-fuse $BASEPATH/models/Stable-diffusion=RW:/content/models=RW /content/fused-models
-    unionfs-fuse $BASEPATH/models/Lora=RW:/content/lora=RW /content/fused-lora
+    unionfs-fuse $BASEPATH/extensions/sd-webui-additional-networks/models/lora=RW:$BASEPATH/models/Lora=RW:/content/lora=RW /content/fused-lora
 }
 
 function install {
