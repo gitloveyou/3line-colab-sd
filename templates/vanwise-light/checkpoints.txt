@@ -1,1 +1,1 @@
-https://huggingface.co/majic404/majicMIX/resolve/main/majicmixrealv5test.safetensors
+https://huggingface.co/jeferyai/myusemodel/resolve/main/chilloutmix_NiPrunedFp16Fix.safetensors
