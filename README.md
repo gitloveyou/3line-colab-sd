@@ -76,6 +76,6 @@
 * 绕开colab对SD的检查(避免警告)
 * 支持自定义模板
 
-##设置
-*Additional Networks 模型路径设置方法，在设置中，找到 Additional Networks，在第一个框里写上  models/Lora,   逗号一定要有，保存后重启，要在Additional Networks中刷新模型。这样系统默认的文件夹里的模型就不用再拷备到Additional Networks扩展里的模型文件夹了。测试了N次，终于整明白了
-*a1111-sd-webui-locon默认搜索lora模型里的原始输出名，来当作lora名，一点就自动输入原始名。而不是硬盘里lora显示的名字，导致主程序找不到lora。无解。只能手动输入lora文件名。可以用自动tag插件快速输入
+## 注意的设置
+* Additional Networks 模型路径设置方法，在设置中，找到 Additional Networks，在第一个框里写上  models/Lora,   逗号一定要有，保存后重启，要在Additional Networks中刷新模型。这样系统默认的文件夹里的模型就不用再拷备到Additional Networks扩展里的模型文件夹了。测试了N次，终于整明白了
+* a1111-sd-webui-locon默认搜索lora模型里的原始输出名，来当作lora名，一点就自动输入原始名。而不是硬盘里lora显示的名字，导致主程序找不到lora。无解。只能手动输入lora文件名。可以用自动tag插件快速输入
