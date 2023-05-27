@@ -1,4 +1,5 @@
 https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN
+https://github.com/DominikDoom/a1111-sd-webui-tagcomplete
 https://github.com/etherealxx/batchlinks-webui
 https://github.com/zanllp/sd-webui-infinite-image-browsing
 https://github.com/camenduru/sd-webui-tunnels
