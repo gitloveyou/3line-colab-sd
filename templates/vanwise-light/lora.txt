@@ -3,3 +3,4 @@ https://huggingface.co/xiaolxl/Gf_style2/resolve/main/GuoFeng2_Lora.safetensors
 https://huggingface.co/tomspy/shojovibe_v11.safetensors/resolve/main/shojovibe_v11.safetensors
 https://huggingface.co/shhkk/LoRA/resolve/main/LoraRealistic/virtualgirlAim_v20.safetensors
 https://huggingface.co/naonovn/Lora/resolve/main/add_detail.safetensors
+https://huggingface.co/ObliviateOnline/Beautifuleyeslikeness/resolve/main/beautifuleyeslikeness_halfBody.safetensors
