@@ -9,3 +9,4 @@ https://github.com/Mikubill/sd-webui-controlnet
 https://github.com/nonnonstop/sd-webui-3d-open-pose-editor
 https://github.com/hako-mikan/sd-webui-lora-block-weight
 https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111
+https://github.com/canisminor1990/sd-web-ui-kitchen-theme
