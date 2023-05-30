@@ -1,1 +1,1 @@
-https://huggingface.co/jeferyai/myusemodel/resolve/main/chilloutmix_NiPrunedFp16Fix.safetensors
+https://huggingface.co/WITHFUN/bra_v5/resolve/main/bra_v5.safetensors
