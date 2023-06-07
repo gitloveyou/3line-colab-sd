@@ -1,1 +1,3 @@
-https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v2.safetensors
+https://huggingface.co/WITHFUN/bra_v5/resolve/main/bra_v5.safetensors
+https://huggingface.co/jeferyai/myusemodel/resolve/main/chilloutmix_NiPrunedFp16Fix.safetensors
+https://huggingface.co/hanafuusen2001/Deliberate/resolve/main/deliberate_v2.safetensors
