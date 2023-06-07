@@ -1,2 +1,1 @@
-https://huggingface.co/WITHFUN/bra_v5/resolve/main/Brav5Neg.pt
-https://huggingface.co/WITHFUN/bra_v5/resolve/main/bradhands.pt
+
