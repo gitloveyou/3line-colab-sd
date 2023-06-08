@@ -8,6 +8,9 @@ apt install -qq libunwind8-dev
 dpkg -i *.deb
 rm *.deb
 os.environ["LD_PRELOAD"] = "libtcmalloc.so"
+#这修复了 colab 上的内存泄漏问题
+
+
 
 env PYTHONDONTWRITEBYTECODE=1 &>/dev/null
 env TF_CPP_MIN_LOG_LEVEL=1 &>/dev/null
