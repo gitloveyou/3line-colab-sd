@@ -1,5 +1,14 @@
 #/bin/bash
 
+wget -qq --show-progres http://launchpadlibrarian.net/367274644/libgoogle-perftools-dev_2.5-2.2ubuntu3_amd64.deb
+wget -qq --show-progres https://launchpad.net/ubuntu/+source/google-perftools/2.5-2.2ubuntu3/+build/14795286/+files/google-perftools_2.5-2.2ubuntu3_all.deb
+wget -qq --show-progres https://launchpad.net/ubuntu/+source/google-perftools/2.5-2.2ubuntu3/+build/14795286/+files/libtcmalloc-minimal4_2.5-2.2ubuntu3_amd64.deb
+wget -qq --show-progres https://launchpad.net/ubuntu/+source/google-perftools/2.5-2.2ubuntu3/+build/14795286/+files/libgoogle-perftools4_2.5-2.2ubuntu3_amd64.deb
+apt install -qq libunwind8-dev
+dpkg -i *.deb
+rm *.deb
+os.environ["LD_PRELOAD"] = "libtcmalloc.so"
+
 env PYTHONDONTWRITEBYTECODE=1 &>/dev/null
 env TF_CPP_MIN_LOG_LEVEL=1 &>/dev/null
 
