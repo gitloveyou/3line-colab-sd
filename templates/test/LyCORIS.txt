@@ -1,0 +1,2 @@
+https://huggingface.co/huggingfaceloveyou/justbackup/resolve/main/OF_rockyslight.safetensors
+https://huggingface.co/huggingfaceloveyou/justbackup/resolve/main/joycechu.safetensors
