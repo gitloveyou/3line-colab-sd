@@ -174,7 +174,7 @@ function assemble_target_path {
       lora)
         echo $BASEPATH/models/Lora
         ;;
-      lycoris)
+      LyCORIS)
         echo $BASEPATH/models/LyCORIS
         ;;
       vae)
@@ -239,8 +239,11 @@ function prepare_fuse_dir {
     mkdir /content/models
     mkdir /content/fused-lora
     mkdir /content/lora
+    mkdir /content/fused-LyCORIS
+    mkdir /content/LyCORIS
     unionfs-fuse $BASEPATH/models/Stable-diffusion=RW:/content/models=RW /content/fused-models
     unionfs-fuse $BASEPATH/models/Lora=RW:/content/lora=RW /content/fused-lora
+    unionfs-fuse $BASEPATH/models/LyCORIS=RW:/content/LyCORIS=RW /content/fused-LyCORIS
 }
 
 function install {
