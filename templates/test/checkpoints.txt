@@ -1,1 +1,1 @@
-
+https://huggingface.co/hanafuusen2001/Deliberate/resolve/main/deliberate_v2.safetensors
