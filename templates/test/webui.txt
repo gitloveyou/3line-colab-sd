@@ -1,1 +1,1 @@
-https://gitcode.net/overbill1683/stable-diffusion-webui/-/tree/dev
+https://github.com/camenduru/stable-diffusion-webui#v2.3
